@@ -1,12 +1,16 @@
 const book = {
   state: {
-    test: 1
+    fileName: '',
+    menuVisible: false
   },
   mutations: {
-  },
-  actions: {
-  },
-  modules: {
+    'SET_FILE_NAME': (state, newFileName) => {
+      state.fileName = newFileName
+    },
+
+    'SET_MENU_VISIBLE': (state, newMenuVisible) => {
+      state.menuVisible = newMenuVisible
+    }
   }
 }
 

@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
-
   export default {
-    computed: {
-      ...mapGetters(['test'])
-    },
     mounted () {
     }
   }
 </script>
 
 <style>
+  #id {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
 </style>

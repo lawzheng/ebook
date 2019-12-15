@@ -3,9 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import './assets/styles/fonts/iconfont.css'
-import './assets/fonts/daysOne.css'
-import './assets/styles/global.less'
+import '@/assets/styles/fonts/iconfont.css'
+import '@/assets/fonts/daysOne.css'
+import '@/assets/styles/global.less'
 
 import 'lib-flexible/flexible'
 
