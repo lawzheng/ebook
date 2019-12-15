@@ -30,6 +30,7 @@
     },
     methods: {
       showSetting (key) {
+        console.log(key)
       }
     }
   }
